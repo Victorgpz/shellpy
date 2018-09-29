@@ -16,15 +16,15 @@ os.system('apt install git php')
 os.system('git clone https://github.com/Tuhinshubhra/RED_HAWK')
 os.system('mv RED_HAWK ~')
 print '###### Done'
-time.sleep(.500)
+time.sleep(1)
 
 print '\n###### Installing D-Tect'
 os.system('apt update && apt upgrade')
 os.system('apt install python2 git')
 os.system('git clone https://github.com/shawarkhanethicalhacker/D-TECT')
 os.system('mv D-TECT ~')
-print '###### Done' 
-time.sleep(.500)
+print '###### Done'
+
 
 
 
