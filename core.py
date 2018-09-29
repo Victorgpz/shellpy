@@ -16,7 +16,7 @@ print " [07] AndroZenmap"
 print " [08] sqlmate"
 print " [09] AstraNmap"
 print " [10] WTF"
- infogathering = raw_input("vic >>")
+infogathering=raw_input("vic >>")
        
 if infogathering == "01" or infogathering == "1":
        nmap()
