@@ -3,7 +3,6 @@ import os
 import sys
 
 from time import sleep as timeout
-from cy.py import *
 
 def main( ):
                 print "\n vic's tools \n"
