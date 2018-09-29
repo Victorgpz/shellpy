@@ -24,7 +24,6 @@ os.system('apt install git python2')
 os.system('git clone https://github.com/sqlmapproject/sqlmap')
 os.system('mv sqlmap ~')
 print '###### Done'
-backtomenu_option()
 time.sleep(1)
 
 
