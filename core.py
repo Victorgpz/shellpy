@@ -64,6 +64,68 @@ time.sleep(1)
 
 
 
+print '\n###### Installing Easymap'
+os.system('apt update && apt upgrade')
+os.system('apt install php git')
+os.system('git clone https://github.com/Cvar1984/Easymap')
+os.system('mv Easymap ~')
+os.system('cd ~/Easymap && sh install.sh')
+print '###### Done'
+time.sleep(1)
+
+print '\n###### Installing XD3v'
+os.system('apt update && apt upgrade')
+os.system('apt install curl')
+os.system('curl -k -O https://gist.github.com/Gameye98/92035588bd0228df6fb7fa77a5f26bc2/raw/f8e73cd3d9f2a72bd536087bb6ba7bc8baef7d1d/xd3v.sh')
+os.system('mv xd3v.sh ~/../usr/bin/xd3v && chmod +x ~/../usr/bin/xd3v')
+print '###### Done'
+print "###### Type 'xd3v' to start."
+time.sleep(1)
+
+
+print '\n###### Installing Crips'
+os.system("apt update && apt upgrade")
+os.system("apt install git python2 openssl curl libcurl wget")
+os.system("git clone https://github.com/Manisso/Crips")
+os.system("mv Crips ~")
+print '###### Done'
+time.sleep(1)
+
+print '\n###### Installing Xshell'
+os.system("apt update && apt upgrade")
+os.system("apt install lynx python2 figlet ruby php nano w3m")
+os.system("git clone https://github.com/Ubaii/Xshell")
+os.system("mv Xshell ~")
+print '###### Done'
+time.sleep(1)
+
+print '\n###### Installing Hash-Buster'
+os.system('apt update && apt upgrade')
+os.system('apt install python2 git')
+os.system('git clone https://github.com/UltimateHackers/Hash-Buster')
+os.system('mv Hash-Buster ~')
+print '###### Done'
+time.sleep(1)
+
+
+print '\n###### Installing Facebook Brute Force'
+os.system('apt update && apt upgrade')
+os.system('apt install python2 wget')
+os.system('pip2 install mechanize')
+os.system('mkdir ~/facebook-brute')
+os.system('wget http://override.waper.co/files/facebook.apk')
+os.system('wget http://override.waper.co/files/password.apk')
+os.system('mv facebook.apk ~/facebook-brute/facebook.py;mv password.apk ~/facebook-brute/password.txt')
+print '###### Done'
+time.sleep(1)
+
+
+
+
+
+
+
+
 
 
 
