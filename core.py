@@ -2,6 +2,8 @@ import os
 import sys
 import time
 print "\n vic's tools \n"
+print "\n"
+print " (+_+)"
 print " \n"
 time.sleep(3)
 
