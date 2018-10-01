@@ -2,6 +2,8 @@ import os
 import sys
 import time
 print "\n vic's tools \n"
+print " ( ͡° ͜ʖ ͡°) "
+time.sleep(3)
 
 print '\n###### Installing Nmap'
 os.system('apt update && apt upgrade')
@@ -141,6 +143,7 @@ print '###### Done'
 time.sleep(1)
 
 print 'end##############'
+print " (づ｡◕‿‿◕｡)づ "
 
 
 
