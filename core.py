@@ -99,17 +99,6 @@ print '###### Done'
 time.sleep(1)
 
 
-print '\n###### Installing Facebook Brute Force'
-os.system('apt update && apt upgrade')
-os.system('apt install python2 wget')
-os.system('pip2 install mechanize')
-os.system('mkdir ~/facebook-brute')
-os.system('wget http://override.waper.co/files/facebook.apk')
-os.system('wget http://override.waper.co/files/password.apk')
-os.system('mv facebook.apk ~/facebook-brute/facebook.py;mv password.apk ~/facebook-brute/password.txt')
-print '###### Done'
-time.sleep(1)
-
 print '\n###### Installing sqlmap'
 os.system('apt update && apt upgrade')
 os.system('apt install git python2')
