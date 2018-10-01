@@ -2,7 +2,7 @@ import os
 import sys
 import time
 print "\n vic's tools \n"
-print " ¯\_(ツ)_/¯"
+print " \n"
 time.sleep(3)
 
 print '\n###### Installing Nmap'
@@ -143,7 +143,6 @@ print '###### Done'
 time.sleep(1)
 
 print 'end##############'
-print " hahaha"
 
 
 
