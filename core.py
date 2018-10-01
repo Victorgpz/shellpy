@@ -107,6 +107,44 @@ os.system('mv sqlmap ~')
 print '###### Done'
 time.sleep(1)
 
+print '\n###### Installing sqlscan'
+os.system('apt update && apt upgrade')
+os.system('apt install git php')
+os.system('git clone http://www.github.com/Cvar1984/sqlscan')
+os.system('mv sqlscan ~')
+print '###### Done'
+time.sleep(1)
+
+
+print '\n###### Installing Hydra'
+os.system('apt update && apt upgrade')
+os.system('apt install hydra')
+print '###### Done'
+time.sleep(1)
+
+print '\n###### Installing InstaHack'
+os.system('apt update && apt upgrade')
+os.system('apt install python2 git')
+os.system('pip2 install requests')
+os.system('git clone https://github.com/avramit/instahack')
+os.system('mv instahack ~')
+print '###### Done'
+time.sleep(1)
+
+
+print '\n###### Installing Brutal'
+os.system('apt update && apt upgrade')
+os.system('apt install git')
+os.system('git clone https://github.com/Screetsec/Brutal')
+os.system('mv Brutal ~')
+print '###### Done'
+time.sleep(1)
+
+print 'end##############'
+
+
+
+
 
 
 
